@@ -1,3 +1,9 @@
+## To run
+This tool will, when main.py is called, read a transactions.csv file and output all flagged transactions to flagged_transactions.csv.
+The transactions.csv file expects the data to be in the format user ID,timestamp,merchant name,amount, where timestamp is formatted like 03-03-2022 12:41:22.
+
+
+## Types of Fraud That im testing for
 Extremely high transaction amount compared to average
 - This is classic fraud, where all of a sudden you make a purchase that is far above what you normally spend / your average spend. This could be fraud because of someone stealing your card details and using them to make high value purchases that you dont normally make
 
